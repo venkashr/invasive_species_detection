@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c7db94b6a1a172f320529847d9796ea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1c7db94b6a1a172f320529847d9796ea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c7db94b6a1a172f320529847d9796ea = L.map(
+                "map_1c7db94b6a1a172f320529847d9796ea",
+                {
+                    center: [30.168544, -95.477014],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 19,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e0a3683829ee0257e84a7609096d5857 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e0a3683829ee0257e84a7609096d5857.addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            var marker_529736927ed7e22245820a04f24af806 = L.marker(
+                [30.168557474807425, -95.477014],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            var icon_97d0805b8974dfc66aefaa61f67e30ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb4a8e0456689622f999705f23e2ecbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18cf37d90b32ea390e80c36b1472154c = $(`<div id="html_18cf37d90b32ea390e80c36b1472154c" style="width: 100.0%; height: 100.0%;">Start</div>`)[0];
+                popup_eb4a8e0456689622f999705f23e2ecbf.setContent(html_18cf37d90b32ea390e80c36b1472154c);
+            
+        
+
+        marker_529736927ed7e22245820a04f24af806.bindPopup(popup_eb4a8e0456689622f999705f23e2ecbf)
+        ;
+
+        
+    
+    
+                marker_529736927ed7e22245820a04f24af806.setIcon(icon_97d0805b8974dfc66aefaa61f67e30ab);
+            
+    
+            var marker_faf4c253b35bf80f5394ad0ba99b6459 = L.marker(
+                [30.16853052514657, -95.47701399866841],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            var icon_a85088d9f209a304f5a09e32973a140b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fcfe6c9e994c770b5da7cf72fe88cd86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_879ecf878949680fd4f665af4f56748a = $(`<div id="html_879ecf878949680fd4f665af4f56748a" style="width: 100.0%; height: 100.0%;">End</div>`)[0];
+                popup_fcfe6c9e994c770b5da7cf72fe88cd86.setContent(html_879ecf878949680fd4f665af4f56748a);
+            
+        
+
+        marker_faf4c253b35bf80f5394ad0ba99b6459.bindPopup(popup_fcfe6c9e994c770b5da7cf72fe88cd86)
+        ;
+
+        
+    
+    
+                marker_faf4c253b35bf80f5394ad0ba99b6459.setIcon(icon_a85088d9f209a304f5a09e32973a140b);
+            
+    
+            var marker_f9a022ac0bbaeb372eb286ab27e3d570 = L.marker(
+                [30.168619599215017, -95.47700941728507],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_f9a022ac0bbaeb372eb286ab27e3d570.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_15ecd2d4fcd760fb81b9d39cee4c1be5 = L.marker(
+                [30.16860281919736, -95.47693573529799],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_15ecd2d4fcd760fb81b9d39cee4c1be5.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fed16fb1cdee51e88160d0a768755323 = L.marker(
+                [30.16857642680096, -95.4767771878136],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_fed16fb1cdee51e88160d0a768755323.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_43e044f4558a33d4dd79519f3d613ab2 = L.marker(
+                [30.16856133652188, -95.47687131743146],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_43e044f4558a33d4dd79519f3d613ab2.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dd6e1f57b511eb09d873f6fad0b6e540 = L.marker(
+                [30.168603417178414, -95.47696936873781],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_dd6e1f57b511eb09d873f6fad0b6e540.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_edb8eff902653644a65a32abee90fed8 = L.marker(
+                [30.16854470184584, -95.47696749123554],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_edb8eff902653644a65a32abee90fed8.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff9611b96a74ae80ae3b024b66bb8c46 = L.marker(
+                [30.168681580710274, -95.47675932918933],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_ff9611b96a74ae80ae3b024b66bb8c46.bindTooltip(
+                `<div>
+                     Japanese Climbing Fern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ccedb7ef4255ae48702da21dfbc9b853 = L.marker(
+                [30.168664941501135, -95.47698426555193],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_ccedb7ef4255ae48702da21dfbc9b853.bindTooltip(
+                `<div>
+                     Japanese Honeysuckle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c9f319d707a92c5316b7fbb191500f90 = L.marker(
+                [30.168567369435472, -95.476843333875],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_c9f319d707a92c5316b7fbb191500f90.bindTooltip(
+                `<div>
+                     Japanese Honeysuckle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f1b34de269ea74401c7184cc52f35e6c = L.marker(
+                [30.168710607626068, -95.47695874118797],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_f1b34de269ea74401c7184cc52f35e6c.bindTooltip(
+                `<div>
+                     Japanese Honeysuckle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_af06cebadd35596ee2fb14731aadea76 = L.marker(
+                [30.168570512574817, -95.4768400819743],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_af06cebadd35596ee2fb14731aadea76.bindTooltip(
+                `<div>
+                     Japanese Honeysuckle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_06dcae882e2c32520c726c28dc064575 = L.marker(
+                [30.168577181440735, -95.47696660464803],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_06dcae882e2c32520c726c28dc064575.bindTooltip(
+                `<div>
+                     Japanese Honeysuckle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d9f6259f55c8d9f58e30c96eeabd83b6 = L.marker(
+                [30.168560813589654, -95.47695038912707],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_d9f6259f55c8d9f58e30c96eeabd83b6.bindTooltip(
+                `<div>
+                     Chinese Tallow
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6bda19e6268f6c79146084098232649d = L.marker(
+                [30.168543999982187, -95.47694546265646],
+                {
+}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+    
+            marker_6bda19e6268f6c79146084098232649d.bindTooltip(
+                `<div>
+                     Chinese Tallow
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_76bc01bee34f576121524af9f47c253b = L.polyline(
+                [[30.168557474807425, -95.477014], [30.168570949614853, -95.477014], [30.168584424422292, -95.477014], [30.16859789922972, -95.477014], [30.16861137403715, -95.477014], [30.168624848844587, -95.477014], [30.16863832365202, -95.477014], [30.168651798459454, -95.477014], [30.16866527326688, -95.477014], [30.168678748074313, -95.477014], [30.168692222881745, -95.477014], [30.168705697689173, -95.477014], [30.168719172496598, -95.477014], [30.16873264730404, -95.477014], [30.168746122111465, -95.477014], [30.1687595969189, -95.477014], [30.168773071726324, -95.477014], [30.16878654653376, -95.477014], [30.16880002134119, -95.477014], [30.16881349614862, -95.477014], [30.16882697095605, -95.477014], [30.168840445763486, -95.477014], [30.168853920570918, -95.477014], [30.168867395378346, -95.477014], [30.16886739537743, -95.47699841404358], [30.168867395376505, -95.47698282808716], [30.168867395375585, -95.47696724213074], [30.16886739537467, -95.47695165617432], [30.168867395373752, -95.4769360702179], [30.168867395372835, -95.47692048426148], [30.168867395371915, -95.47690489830507], [30.16886739537099, -95.47688931234865], [30.168867395370068, -95.47687372639223], [30.168867395369148, -95.47685814043581], [30.16886739536823, -95.47684255447939], [30.168867395367307, -95.47682696852297], [30.168867395366387, -95.47681138256654], [30.168867395365464, -95.47679579661012], [30.16886739536454, -95.4767802106537], [30.168867395363627, -95.47676462469728], [30.168867395362703, -95.47674903874086], [30.16886739536178, -95.47673345278444], [30.168867395360852, -95.47671786682803], [30.16886739535993, -95.4767022808716], [30.16886739535901, -95.47668669491519], [30.16886739535809, -95.47667110895877], [30.168867395357168, -95.47665552300235], [30.168867395356248, -95.47663993704593], [30.168867395355324, -95.47662435108951], [30.16885392054789, -95.47662435108951], [30.168840445740464, -95.47662435108951], [30.168826970933036, -95.47662435108951], [30.168813496125605, -95.47662435108951], [30.168800021318177, -95.47662435108951], [30.168786546510752, -95.47662435108951], [30.168773071703317, -95.47662435108951], [30.16875959689589, -95.47662435108951], [30.168746122088464, -95.47662435108951], [30.168732647281036, -95.47662435108951], [30.16871917247361, -95.47662435108951], [30.168705697666176, -95.47662435108951], [30.168692222858745, -95.47662435108951], [30.168678748051317, -95.47662435108951], [30.168665273243878, -95.47662435108951], [30.168651798436443, -95.47662435108951], [30.16863832362902, -95.47662435108951], [30.168624848821583, -95.47662435108951], [30.16861137401415, -95.47662435108951], [30.16859789920673, -95.47662435108951], [30.1685844243993, -95.47662435108951], [30.16857094959187, -95.47662435108951], [30.16855747478444, -95.47662435108951], [30.16854399997701, -95.47662435108951], [30.168530525169583, -95.47662435108951], [30.168530525168663, -95.47663993699267], [30.16853052516774, -95.47665552289583], [30.168530525166823, -95.47667110879898], [30.168530525165902, -95.47668669470214], [30.16853052516498, -95.4767022806053], [30.168530525164055, -95.47671786650845], [30.168530525163135, -95.47673345241161], [30.16853052516222, -95.47674903831476], [30.168530525161295, -95.47676462421792], [30.168530525160374, -95.47678021012108], [30.16853052515945, -95.47679579602422], [30.168530525158527, -95.47681138192738], [30.168530525157614, -95.47682696783053], [30.16853052515669, -95.47684255373369], [30.168530525155766, -95.47685813963685], [30.16853052515485, -95.47687372554], [30.16853052515393, -95.47688931144316], [30.168530525153013, -95.47690489734632], [30.16853052515209, -95.47692048324947], [30.168530525151176, -95.47693606915263], [30.168530525150253, -95.47695165505579], [30.16853052514933, -95.47696724095894], [30.168530525148412, -95.4769828268621], [30.168530525147492, -95.47699841276525], [30.16853052514657, -95.47701399866841]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_1c7db94b6a1a172f320529847d9796ea);
+        
+</script>
+</html>
